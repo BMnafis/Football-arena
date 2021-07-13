@@ -33,6 +33,7 @@ a {
 .left-banner-text {
   margin-right: 102px;
   margin-top: 50px;
+  z-index: 1;
 }
 .left-banner-text .header-title {
   width: 485px;
@@ -64,6 +65,64 @@ a {
   display: inline-block;
   margin-left: 8px;
   font-size: 14px;
+}
+.right-banner-img {
+  z-index: 1;
+}
+
+/* ========================= */
+
+.waves {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  background-color: #4973ff;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.waves::before,
+.waves::after {
+  content: "";
+  position: absolute;
+  width: 300vw;
+  height: 300vw;
+  top: -65vw;
+  left: 50%;
+  transform: translate(-50%, -75%);
+}
+
+.waves::before {
+  border-radius: 44%;
+  background: rgba(51, 51, 51, 1);
+}
+
+.waves::after {
+  border-radius: 44%;
+  background: rgba(51, 51, 51, 0.5);
+}
+
+/* header animation */
+.header-title {
+  animation: header-animation 3s ease-in-out 1;
+}
+@keyframes header-animation {
+  0% {
+    opacity: 0;
+    transform: translate(-1500px, 0px);
+  }
+  60% {
+    opacity: 1;
+    transform: translate(30px, 0px);
+  }
+  80% {
+    transform: translate(-30px, 0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
 }
 
 /* Player Grid Article section  */
