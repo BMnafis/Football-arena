@@ -113,7 +113,13 @@
     justify-content: center;
   }
   .tournament-btn a {
-    margin-right: 10px;
+    margin-right: 0;
+  }
+  .t-btn1 {
+    margin-right: 2px;
+  }
+  .t-btn2 {
+    margin-left: 2px;
   }
 
   /* Partnership section */
