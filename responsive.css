@@ -105,7 +105,7 @@
   .t-title p {
     max-width: 290px;
     text-align: center;
-    margin: auto;
+    margin: 10px auto;
   }
   .t-buttons {
     display: flex;
