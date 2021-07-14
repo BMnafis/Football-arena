@@ -4,6 +4,7 @@
 /* Global utilities style */
 * {
   margin: 0;
+  padding: 0;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -12,8 +13,12 @@ a {
   text-decoration: none;
   color: #000;
 }
+main {
+  width: 100%;
+  overflow: hidden;
+}
 .container {
-  width: 1163px;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -33,7 +38,7 @@ a {
   margin-top: 50px;
 }
 .left-banner-text {
-  margin-right: 102px;
+  margin-right: 110px;
   margin-top: 50px;
   z-index: 1;
 }
@@ -79,6 +84,7 @@ a {
 #header-section:hover .right-banner-img {
   transform: scale(1.2) translate(0, 30px);
 }
+*/
 
 /* Animation */
 .header-title {
@@ -108,7 +114,7 @@ a {
   width: 100%;
 }
 .player-container {
-  width: 1050px;
+  width: 80%;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -146,10 +152,11 @@ a {
 /* Match highlights section */
 #highlight-section {
   margin-top: 165px;
+  width: 100%;
 }
 .highlight-wrap {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .left-h-content {
   margin-left: 20px;
@@ -170,11 +177,12 @@ a {
   margin-bottom: 20px;
 }
 .right-h-img img {
-  width: 500px;
+  width: 400px;
 }
 
 /* Tournament section */
 #tournament-section {
+  width: 100%;
   margin-top: 150px;
   height: 95vh;
   position: relative;
@@ -220,6 +228,7 @@ a {
 
 /* Partnership section */
 #partnership-section {
+  width: 100%;
   background-color: rgb(241, 241, 241);
   padding: 100px 0;
 }
@@ -246,8 +255,10 @@ a {
 .partanership-item img {
   width: 100%;
 }
+
 /* Footer section */
 #footer-section {
+  width: 100%;
   margin-top: 50px;
   padding: 63px 0;
   overflow: hidden;

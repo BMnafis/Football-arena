@@ -154,3 +154,380 @@
     margin-right: 0px;
   }
 }
+
+/* ---------------Responsive for Tablet device---------------------- */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Header section */
+  #header-section {
+    width: 100%;
+    padding-bottom: 60px;
+  }
+  .container {
+    width: 100%;
+  }
+  .banner-section {
+    flex-direction: column;
+  }
+  .left-banner-text {
+    margin-left: 26px;
+    margin-top: 0;
+  }
+  .left-banner-text .header-title {
+    max-width: 378px;
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .right-banner-img {
+    margin-top: 80px;
+    margin-left: 55px;
+  }
+  .right-banner-img img {
+    max-width: 85%;
+  }
+  #header-section:hover .right-banner-img {
+    transform: scale(1) translate(0, 0);
+  }
+
+  /* Player Grid Article section  */
+  .player-container {
+    width: 100%;
+  }
+  .blogs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 47px;
+  }
+  .blog-item {
+    max-width: 330px;
+  }
+
+  /* Match highlights section */
+  #highlight-section {
+    margin-top: 60px;
+  }
+  .highlight-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+  }
+  .left-h-content {
+    max-width: 450px;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .left-h-content h2 {
+    width: 100%;
+    font-size: 36px;
+  }
+  .left-h-content p {
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  .right-h-img {
+    max-width: 450px;
+    margin-right: 0;
+  }
+  .right-h-img img {
+    width: 100%;
+  }
+
+  /* Tournament section */
+  #tournament-section {
+    margin-top: 80px;
+    width: 100%;
+    height: 600px;
+  }
+  .t-title {
+    width: 100%;
+    text-align: center;
+  }
+  .t-title h2 {
+    font-size: 28px;
+    text-align: center;
+    max-width: 460px;
+    margin: auto;
+  }
+  .t-title p {
+    max-width: 360px;
+    text-align: center;
+    margin: 10px auto;
+  }
+  .t-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .tournament-btn a {
+    margin-right: 0;
+  }
+  .t-btn1 {
+    margin-right: 2px;
+  }
+  .t-btn2 {
+    margin-left: 2px;
+  }
+
+  /* Partnership section */
+  #partnership-section {
+    width: 100%;
+    padding: 80px 0;
+  }
+  .partnarship-wrap p {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  .partnerships {
+    margin-top: 40px;
+    width: 100%;
+    grid-template-columns: 200px;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    grid-row-gap: 40px;
+  }
+  .partanership-item {
+    max-width: 200px;
+  }
+  .partanership-item img {
+    width: 200px;
+  }
+  /* Footer section */
+  #footer-section {
+    margin-top: 0;
+    padding: 75px 0;
+  }
+  .f-logo img {
+    max-width: 250px;
+  }
+  .footer-wrap .f-social a {
+    margin-right: 0px;
+  }
+}
+
+/* ---------------Responsive for Big Tablet & ipad device------------------ */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Header section */
+  #header-section {
+    width: 100%;
+    padding-bottom: 60px;
+  }
+  .container {
+    width: 100%;
+  }
+  .banner-section {
+    justify-content: space-around;
+  }
+  .left-banner-text {
+    margin-left: 26px;
+    margin-top: 50px;
+    margin-right: 10px;
+  }
+  .left-banner-text .header-title {
+    max-width: 350px;
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .right-banner-img {
+    margin-top: 80px;
+  }
+  .right-banner-img img {
+    max-width: 350px;
+  }
+  #header-section:hover .right-banner-img {
+    transform: scale(1.1) translate(0, -35px);
+  }
+  /* Player Grid Article section  */
+  .player-container {
+    width: 100%;
+  }
+  .blogs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 47px;
+  }
+  .blog-item {
+    max-width: 330px;
+  }
+
+  /* Match highlights section */
+  #highlight-section {
+    margin-top: 60px;
+  }
+  .highlight-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .left-h-content {
+    max-width: 350px;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .left-h-content h2 {
+    width: 100%;
+    font-size: 30px;
+  }
+  .left-h-content p {
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  .right-h-img {
+    max-width: 350px;
+    margin-right: 0;
+    margin-top: 60px;
+  }
+  .right-h-img img {
+    width: 100%;
+  }
+
+  /* Tournament section */
+  #tournament-section {
+    margin-top: 80px;
+    width: 100%;
+    height: 650px;
+  }
+
+  /* Partnership section */
+  #partnership-section {
+    width: 100%;
+    padding: 80px 0;
+  }
+  .partnarship-wrap p {
+    font-size: 30px;
+    margin-left: 30px;
+  }
+  .partnerships {
+    margin-top: 40px;
+    width: 100%;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    grid-row-gap: 60px;
+  }
+  .partanership-item {
+    max-width: 200px;
+  }
+  .partanership-item img {
+    width: 130px;
+  }
+}
+
+/* ---------------Responsive for laptop & ipad pro device------------------ */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Header section */
+  #header-section {
+    width: 100%;
+    padding-bottom: 60px;
+  }
+  .container {
+    width: 100%;
+  }
+  .banner-section {
+    justify-content: space-around;
+  }
+  .left-banner-text {
+    margin-left: 26px;
+    margin-top: 80px;
+    margin-right: 10px;
+  }
+  .left-banner-text .header-title {
+    max-width: 350px;
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .right-banner-img {
+    margin-top: 50px;
+  }
+  .right-banner-img img {
+    max-width: 400px;
+  }
+  #header-section:hover .right-banner-img {
+    transform: scale(1.1) translate(0, -35px);
+  }
+
+  /* Player Grid Article section  */
+  .player-container {
+    width: 100%;
+  }
+  .blogs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 47px;
+  }
+  .blog-item {
+    max-width: 330px;
+  }
+  /* Match highlights section */
+  #highlight-section {
+    margin-top: 60px;
+  }
+  .highlight-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    padding: 0 30px;
+  }
+  .left-h-content {
+    max-width: 350px;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .left-h-content h2 {
+    width: 100%;
+    font-size: 30px;
+  }
+  .left-h-content p {
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  .right-h-img {
+    max-width: 350px;
+    margin-right: 0;
+    margin-top: 60px;
+  }
+  .right-h-img img {
+    width: 100%;
+  }
+
+  /* Tournament section */
+  #tournament-section {
+    margin-top: 80px;
+    width: 100%;
+    height: 650px;
+  }
+  /* Partnership section */
+  #partnership-section {
+    width: 100%;
+    padding: 80px 0;
+  }
+  .partnarship-wrap p {
+    font-size: 30px;
+    margin-left: 30px;
+  }
+  .partnerships {
+    margin-top: 80px;
+    width: 100%;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 1fr;
+    justify-content: space-around;
+  }
+  .partanership-item {
+    max-width: 200px;
+  }
+  .partanership-item img {
+    width: 130px;
+  }
+}
