@@ -22,12 +22,14 @@ a {
 
 /* Header Banner section */
 #header-section {
+  width: 100%;
   background-color: #303763;
   overflow: hidden;
   padding-bottom: 86px;
 }
 .banner-section {
   display: flex;
+  justify-content: flex-start;
   margin-top: 50px;
 }
 .left-banner-text {
@@ -103,6 +105,7 @@ a {
 /* Player Grid Article section  */
 #player-blogs {
   overflow: hidden;
+  width: 100%;
 }
 .player-container {
   width: 1050px;
@@ -114,7 +117,6 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-column-gap: 30px;
   grid-row-gap: 27px;
-  overflow: hidden;
   margin-top: 70px;
 }
 .blog-item {
@@ -126,11 +128,9 @@ a {
   text-align: center;
 }
 .blog-img img {
+  width: 100%;
   display: inline-block;
   margin-bottom: 16px;
-}
-.blog-info {
-  margin-left: 7px;
 }
 .blog-info .blog-title {
   font-size: 28px;
@@ -185,22 +185,26 @@ a {
   background-size: cover;
 }
 .tournament-wrap {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.t-title {
+  max-width: 625px;
+  text-align: center;
+}
 .t-title h2 {
   color: #fff;
   font-size: 40px;
   font-weight: 700;
 }
-.t-description p {
-  max-width: 500px;
+.t-title p {
   text-align: center;
   color: #fff;
   font-size: 16px;
@@ -239,10 +243,8 @@ a {
   grid-auto-flow: dense;
   grid-row-gap: 40px;
 }
-.partnarship-item img {
+.partanership-item img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 /* Footer section */
 #footer-section {
